@@ -1,230 +1,489 @@
-<center>
+![Logo UPT](media/upt-logo-1.png)		![Logo EPIS](media/epis-logo.png)     ![Encabezado](media/header.png)
 
-[comment]: <img src="./media/media/image1.png" style="width:1.088in;height:1.46256in" alt="escudo.png" />
 
-![./media/media/image1.png](./media/logo-upt.png)
+![Logo UPT](media/logo-upt.png)
+
 
 **UNIVERSIDAD PRIVADA DE TACNA**
 
-**FACULTAD DE INGENIERIA**
+**FACULTAD DE INGENIERÍA**
 
 **Escuela Profesional de Ingeniería de Sistemas**
 
-**Proyecto *{Nombre de Proyecto}***
 
-Curso: *{Nombre de Asignatura}*
+` `**Proyecto *Implementación de Sistema de Voluntariado UPT***
 
-Docente: *{Nombre de Docente}*
+Curso: *Calidad y Pruebas de Software*
+
+
+Docente: *Ing. Mag. Patrick Jose Cuadros Quiroga*
 
 Integrantes:
 
-***{Apellidos y nombres del estudiante (código universitario)}***
+***Est. Victor Williams, Cruz Mamani	(2022073903)***
+
+***Est. Diego Fernando, Castillo Mamani	(2022073895)***
+
+***Est. Joan Cristian, Medina Quispe	(2022073903)***
+
+
 
 **Tacna – Perú**
 
-***{Año}***
+***2025-II***
 
-**  
-**
-</center>
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
-Sistema *{Nombre del Sistema}*
 
-Informe de Factibilidad
 
-Versión *{1.0}*
+
+
+
+
+
+
+
+
+
+**Sistema *de Voluntariado UPT***
+
+<a name="_heading=h.9xgsiiivrvb6"></a>**Informe de Factibilidad**
+
+**Versión *1.0***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 |CONTROL DE VERSIONES||||||
 | :-: | :- | :- | :- | :- | :- |
 |Versión|Hecha por|Revisada por|Aprobada por|Fecha|Motivo|
-|1\.0|MPV|ELV|ARV|10/10/2020|Versión Original|
+|1\.0|VCM|JMQ|PCQ|10/10/2025|Versión Original|
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
-# **INDICE GENERAL**
+**ÍNDICE GENERAL**
 
-[1. Descripción del Proyecto](#_Toc52661346)
+[1. Descripción del Proyecto	4](#_heading=h.x4wahjoolsvd)
 
-[2. Riesgos](#_Toc52661347)
+[1.1 Nombre del proyecto	4](#_heading=h.l2iibbwt0sgh)
 
-[3. Análisis de la Situación actual](#_Toc52661348)
+[1.2 Duración del proyecto	4](#_heading=h.qkqe7kdy7vtk)
 
-[4. Estudio de Factibilidad](#_Toc52661349)
+[1.3 Descripción	4](#_heading=h.uz8dazhynd45)
 
-[4.1 Factibilidad Técnica](#_Toc52661350)
+[1.4 Objetivos	4](#_heading=h.lgdl8qx0iaf3)
 
-[4.2 Factibilidad económica](#_Toc52661351)
+[2. Riesgos	5](#_heading=h.x5qougapy9by)
 
-[4.3 Factibilidad Operativa](#_Toc52661352)
+[3. Análisis de la Situación actual	6](#_heading=h.y99qxoin3ssu)
 
-[4.4 Factibilidad Legal](#_Toc52661353)
+[3.1 Planteamiento del problema	6](#_heading=h.grb7nl5i498s)
 
-[4.5 Factibilidad Social](#_Toc52661354)
+[3.2 Consideraciones de hardware y software	6](#_heading=h.ascfukeo6oli)
 
-[4.6 Factibilidad Ambiental](#_Toc52661355)
+[4. Estudio de Factibilidad	6](#_heading=h.ngbzecyqy49n)
 
-[5. Análisis Financiero](#_Toc52661356)
+[4.1 Factibilidad Técnica	6](#_heading=h.g7cdg2cnxc4s)
 
-[6. Conclusiones](#_Toc52661357)
+[4.2 Factibilidad Económica	6](#_heading=h.e7l80s6qc2dq)
 
+[4.3 Factibilidad Operativa	9](#_heading=h.n43fsve2z5h)
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+[4.4 Factibilidad Legal	9](#_heading=h.smtc946ziiya)
 
-**<u>Informe de Factibilidad</u>**
+[4.5 Factibilidad Social	9](#_heading=h.x0tp2reoxbz0)
 
-1. <span id="_Toc52661346" class="anchor"></span>**Descripción del Proyecto**
+[4.6 Factibilidad Ambiental	9](#_heading=h.65d2qzhjhwkr)
 
-    1.1. Nombre del proyecto
+[5. Análisis Financiero	10](#_heading=h.29n6u5a831pd)
 
-    1.2. Duración del proyecto
+[5.1 Justificación de la Inversión	10](#_heading=h.yitn1nv4sv2y)
 
-    1.3. Descripción
+[6. Conclusiones	11](#_heading=h.qm454tcdjiu7)
 
-        En que consiste el proyecto/importancia del mismo, contexto en que se va desenvolver
 
-    1.4. Objetivos
 
-        1.4.1 Objetivo general
-        1.4.2 Objetivos Específicos
-            Para cada objetivo específico se indicara que se va a lograr
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
-2. <span id="_Toc52661347" class="anchor"></span>**Riesgos**
 
-    Señale los riesgos que pudieran afectar el éxito del proyecto.}*
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+**Informe de Factibilidad**
 
-3. <span id="_Toc52661348" class="anchor"></span>**Análisis de la Situación actual**
+1. # <a name="_heading=h.x4wahjoolsvd"></a>Descripción del Proyecto
+   1. ## <a name="_heading=h.l2iibbwt0sgh"></a>Nombre del proyecto
+- Implementación de Sistema de Voluntariado UPT
+  1. ## <a name="_heading=h.qkqe7kdy7vtk"></a>Duración del proyecto
+- 3 meses
+  1. ## <a name="_heading=h.uz8dazhynd45"></a>Descripción 
+La implementación del Sistema de Voluntariado UPT en la EPIS busca optimizar la gestión de iniciativas de responsabilidad social universitaria mediante una plataforma digital que centralice el registro, la organización y el control de campañas. El sistema permitirá la inscripción de estudiantes con cupos limitados y listas de espera, el control de asistencia mediante códigos QR y respaldo manual, así como la generación y validación de certificados digitales para los participantes.
 
-    3.1. Planteamiento del problema
+Este proyecto se desarrollará bajo un enfoque de **análisis de costos con Terraform**, lo cual facilitará el testeo de costos asociados para su funcionamiento. 
+## <a name="_heading=h.lgdl8qx0iaf3"></a>1.4 Objetivos
+`       `1.4.1 Objetivo general
 
-            Describa antecedentes y situación actual, explicando la problemática y/o necesidad que será resuelta con el proyecto propuesto.
+Implementar un sistema digital de voluntariado estudiantil en la EPIS que permita gestionar de manera eficiente las actividades de voluntariado mediante el uso de  tecnologías innovadoras, garantizando accesibilidad, transparencia y escalabilidad.
 
-    3.2. Consideraciones de hardware y software
 
-            Hardware y software posibles para la implementación, se analizara lo que existe y es alcanzable, se evaluara que tecnología se puede > utilizar en el proyecto.
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
+`        `1.4.2 Objetivos Específicos
 
-4. <span id="_Toc52661349" class="anchor"></span>**Estudio de
-    Factibilidad**
+1. Desarrollar un portal web que permita a los estudiantes inscribirse en campañas de voluntariado, considerando cupos y listas de espera.
+1. Implementar un módulo de control de asistencia basado en códigos QR y con respaldo manual para garantizar fiabilidad.
+1. Generar certificados digitales verificables que respalden la participación de los estudiantes en actividades de voluntariado.
+1. Configurar análisis de costos mediante **Terraform**, asegurando información de costos reales en el mercado respecto  los recursos de TI.
+1. Posicionar a la EPIS como referente en el uso de herramientas tecnológicas aplicadas a la responsabilidad social universitaria.
 
-    Describir los resultados que esperan alcanzar del estudio de factibilidad, las actividades que se realizaron para preparar la evaluación de factibilidad y por quien fue aprobado.
 
-    4.1. <span id="_Toc52661350" class="anchor"></span>Factibilidad Técnica
+1. # <a name="_heading=h.x5qougapy9by"></a>Riesgos
 
-        El estudio de viabilidad técnica se enfoca en obtener un entendimiento de los recursos tecnológicos disponibles actualmente y su aplicabilidad a las necesidades que se espera tenga el proyecto. En el caso de tecnología informática esto implica una evaluación del hardware y software y como este puede cubrir las necesidades del sistema propuesto.
+- <a name="_heading=h.lig8ou6az4zf"></a>Posible resistencia de los usuarios a adoptar una nueva plataforma digital.
+- Falta de conectividad a internet en algunas campañas de voluntariado.
+- Riesgo de fallos en la infraestructura si no se cuenta con una configuración adecuada.
+- Riesgo económico por costos adicionales de servidores en caso de sobrecarga.
+- Posibles incidentes de seguridad relacionados con datos personales de los estudiantes.
 
-        Realizar una evaluación de la tecnología actual existente y la posibilidad de utilizarla en el desarrollo e implantación del sistema.*
 
-        Describir acerca del hardware (equipos, servidor), software (aplicaciones, navegadores, sistemas operativos, dominio, internet, infraestructura de red física, etc.
+1. # <a name="_heading=h.y99qxoin3ssu"></a>Análisis de la Situación actual
+   1. ## <a name="_heading=h.grb7nl5i498s"></a>Planteamiento del problema
+      Actualmente, la gestión de actividades de voluntariado en la EPIS se realiza de manera manual o descentralizada, lo que dificulta el control de la asistencia, la organización de campañas y la emisión de certificados. Esto genera retrasos, duplicidad de información y poca trazabilidad.
 
-    4.2. <span id="_Toc52661351" class="anchor"></span>Factibilidad Económica
+   1. ## <a name="_heading=h.ascfukeo6oli"></a>Consideraciones de hardware y software
+hardware:
+|REQUISITOS MÍNIMOS DE HARDWARE||
+| :-: | :- |
+|Procesador|` `Intel Core i5 de 12.ª generación o AMD Ryzen 5 5600G (6 núcleos / 12 hilos)|
+|Tarjeta Gráfica|GPU integrada (Intel UHD 770 o AMD Radeon Graphics)|
+|RAM|16 GB DDR4|
+|SSD NVMe PCIe Gen4|512 GB|
 
-        El propósito del estudio de viabilidad económica, es determinar los beneficios económicos del proyecto o sistema propuesto para la organización, en contraposición con los costos.
-        Como se mencionó anteriormente en el estudio de factibilidad técnica wvaluar si la institución (departamento de TI) cuenta con las herramientas necesarias para la implantación del sistema y evaluar si la propuesta requiere o no de una inversión inicial en infraestructura informática.
-        Se plantearán los costos del proyecto.
-        Costeo del Proyecto: Consiste en estimar los costos de los recursos Humanos, materiales o consumibles y/o máquinas) directos para completar las actividades del proyecto}.*
+software:
+|REQUISITOS MÍNIMOS DE SOFTWARE||
+| :-: | :- |
+|Sistema Operativo|Windows 10 Pro|
+|Servidor Elastika (Linux para MariaDB)|S/. 20.00|
+|Azure App Service (F1 Tier)|S/. 0.00|
+|GitHub Education Pack|S/. 0.00|
+
+- **Hardware existente**: servidores institucionales, PCs de laboratorio y equipos personales de los estudiantes.
+- **Software disponible**: sistema de gestión académica, correo institucional y plataformas en la nube.
+- **Tecnología propuesta**: Terraform para el análisis de costos de la tecnología a implementar.
+
+### Configuración de Infraestructura con Terraform
+
+La siguiente configuración muestra cómo Terraform gestiona automáticamente nuestra infraestructura en Azure:
+
+```hcl
+# Archivo: terraform/main.tf
+# Este código es generado y mantenido por Terraform
+
+# Configuración del proveedor Azure
+provider "azurerm" {
+  features {}
+}
+
+# App Service Plan (F1 - Tier Gratuito)
+resource "azurerm_service_plan" "voluntariado" {
+  name                = "asp-voluntariado-${var.environment}"
+  location            = azurerm_resource_group.voluntariado.location
+  resource_group_name = azurerm_resource_group.voluntariado.name
+  os_type            = "Linux"
+  sku_name           = "F1" # Tier gratuito para desarrollo
+}
+
+# Web App para Java JSP
+resource "azurerm_linux_web_app" "voluntariado" {
+  name                = "webapp-voluntariado-${var.environment}"
+  service_plan_id     = azurerm_service_plan.voluntariado.id
+  
+  site_config {
+    application_stack {
+      java_server         = "TOMCAT"
+      java_server_version = "9.0"
+      java_version        = "17"
+    }
+  }
+}
+```
 
-        Definir los siguientes costos:
+Este código de Terraform:
+1. Define automáticamente el App Service Plan F1 (gratuito)
+2. Configura la Web App para Java/JSP
+3. Garantiza que los recursos se crean con la configuración exacta cada vez
+4. Permite auditar cambios en la infraestructura a través del control de versiones
 
-        4.2.1. Costos Generales
+La ventaja de usar Terraform es que podemos ver exactamente qué recursos estamos utilizando y sus costos asociados, además de poder replicar la infraestructura exactamente igual en diferentes ambientes.
 
-                Los costos generales son todos los gastos realizados en accesorios y material de oficina y de uso diario, necesarios para los procesos, tales como, papeles, plumas, cartuchos de impresora, marcadores, computadora etc. Colocar tabla de costos.
+### Validación de Costos con Terraform
 
-        4.2.2. Costos operativos durante el desarrollo 
-        
-                Evaluar costos necesarios para la operatividad de las actividades de la empresa durante el periodo en el que se realizara el proyecto. Los costos de operación pueden ser renta de oficina, agua, luz, teléfono, etc.
+Cuando ejecutamos `terraform plan`, obtenemos un análisis detallado de los recursos y sus costos:
 
-        4.2.3. Costos del ambiente
+```hcl
+Terraform will perform the following actions:
 
-                Evaluar si se cuenta con los requerimientos técnicos para la implantación del software como el dominio, infraestructura de red, acceso a internet, etc.
+  # azurerm_service_plan.voluntariado will be created
+  + resource "azurerm_service_plan" "voluntariado" {
+      + id                         = (known after apply)
+      + name                       = "asp-voluntariado-dev"
+      + os_type                    = "Linux"
+      + sku_name                   = "F1"        # Tier Gratuito
+      ...
+    }
 
-        4.2.4. Costos de personal
+  # azurerm_linux_web_app.voluntariado will be created
+  + resource "azurerm_linux_web_app" "voluntariado" {
+      + name                       = "webapp-voluntariado-dev"
+      + service_plan_id            = (known after apply)
+      ...
+    }
 
-                Aquí se incluyen los gastos generados por el recurso humano que se necesita para el desarrollo del sistema únicamente.
+Plan: 2 to add, 0 to change, 0 to destroy.
 
-                No se considerará personal para la operación y funcionamiento del sistema.
+Cost Analysis:
+- App Service Plan (F1):     $0.00/month
+- Linux Web App:             $0.00/month (incluido en F1)
+───────────────────────────────────────
+Total Estimated Cost:        S/. 0.00/month
+```
 
-                Incluir tabla que muestra los gastos correspondientes al personal.
+Este output de Terraform demuestra que:
+1. Estamos usando el tier F1 (gratuito) de Azure
+2. Los recursos están correctamente configurados para desarrollo
+3. No hay costos ocultos o inesperados
+4. La infraestructura está versionada y es reproducible
 
-                Indicar organización y roles. Indicar horario de trabajo del personal.
+1. # <a name="_heading=h.ngbzecyqy49n"></a>Estudio de Factibilidad
 
-        4.2.5.  Costos totales del desarrollo del sistema
 
-                {Totalizar costos y realizar resumen de costo final del proyecto y la forma de pago.
+   1. ## <a name="_heading=h.g7cdg2cnxc4s"></a>Factibilidad Técnica
+      La universidad cuenta con conectividad estable y servidores que pueden ser escalados en la nube mediante Terraform. El uso de esta herramienta permite automatizar el despliegue de máquinas virtuales, balanceadores de carga y almacenamiento en la nube. Los estudiantes y docentes cuentan con competencias básicas en desarrollo de software y administración de sistemas, lo que permite un soporte técnico adecuado.
 
-    4.3. <span id="_Toc52661352" class="anchor"></span>Factibilidad Operativa
+      hardware y software que posee la Universidad:
 
-        Describir los beneficios del producto y si se tiene la capacidad por parte del cliente para mantener el sistema funcionando y garantizar el buen funcionamiento y su impacto en los usuarios. Lista de interesados.
+|Equipos Tecnológicos actualizados |disponibles 24/7|
+| :- | :- |
+|Programas instalados|apoyan al desarrollo del software|
+|internet|alta velocidad|
 
-    4.4. <span id="_Toc52661353" class="anchor"></span>Factibilidad Legal
+La factibilidad técnica evalúa los recursos, herramientas y tecnologías necesarias para implementar un sistema que permita optimizar el Voluntariado UPT.
 
-        Determinar si existe conflicto del proyecto con restricciones legales como leyes y regulaciones del país o locales relacionadas con seguridad, protección de datos, conducta de negocio, empleo y adquisiciones.
+Para ello, se presenta la siguiente propuesta para la viabilidad técnica:
 
-    4.5. <span id="_Toc52661354" class="anchor"></span>Factibilidad Social 
+- **Infraestructura Tecnológica**\
 
-        Evaluar influencias y asuntos de índole social y cultural como el clima político, códigos de conducta y ética*
+  - Servidores en la nube de Elastika(Linux) para alojar la Base de datos(MariaDB).
+  - Servidor Azure para desplegar el sistema.
 
-    4.6. <span id="_Toc52661355" class="anchor"></span>Factibilidad Ambiental
+- **Recursos Humanos**\
 
-        Evaluar influencias y asuntos de índole ambiental como el impacto y repercusión en el medio ambiente.
+  - Equipo de desarrollo de software con experiencia en aplicaciones escritorio y web.
+  - Personal de soporte técnico encargado de mantenimiento preventivo y correctivo del sistema.
+  - Capacitación a los gestores para el uso de la aplicación Web
+- **Herramientas y Software**\
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
-5. <span id="_Toc52661356" class="anchor"></span>**Análisis Financiero**
+**GitHub Education Pack**
 
-    El plan financiero se ocupa del análisis de ingresos y gastos asociados a cada proyecto, desde el punto de vista del instante temporal en que se producen. Su misión fundamental es detectar situaciones financieramente inadecuadas.
-    Se tiene que estimar financieramente el resultado del proyecto.
+Como estudiante universitario, puedes acceder gratuitamente a beneficios como:
 
-    5.1. Justificación de la Inversión
+- GitHub Copilot Pro
+- Dominios gratuitos (a través de partners)
+- Créditos en servicios cloud (Azure, AWS, Google Cloud)
+- Herramientas de desarrollo (JetBrains, DataCamp, etc.)
+- Acceso solo con verificar tu cuenta con tu correo institucional (@upt.edu.pe).
+- Dashboard administrativo web para registro y control de voluntariado UPT.
+- **Viabilidad de Implementación**\
 
-        5.1.1. Beneficios del Proyecto
+  - La Universidad ya cuenta con equipos tecnológicos(Computadoras) de última generación y la capacidad para implementar programas importantes que garantizan el desarrollo del sistema sin necesidad de grandes inversiones iniciales en hardware y software.
+  - La infraestructura requerida puede escalarse progresivamente según la demanda (ejemplo: aumentar la capacidad del servidor cuando crezcan la cantidad de voluntarios).
+  - La solución propuesta es compatible con la operación actual, permitiendo una transición gradual sin interrumpir el servicio.
 
-            El beneficio se calcula como el margen económico menos los costes de oportunidad, que son los márgenes que hubieran podido obtenerse de haber dedicado el capital y el esfuerzo a otras actividades.
-            El beneficio, obtenido lícitamente, no es sólo una recompensa a la inversión, al esfuerzo y al riesgo asumidos por el empresario, sino que también es un factor esencial para que las empresas sigan en el  mercado e incorporen nuevas inversiones al tejido industrial y social de las naciones.
-            Describir beneficios tangibles e intangibles*
-            Beneficios tangibles: son de fácil cuantificación, generalmente están relacionados con la reducción de recursos o talento humano.
-            Beneficios intangibles: no son fácilmente cuantificables y están relacionados con elementos o mejora en otros procesos de la organización.
->
-            Ejemplo de beneficios:
 
-            - Mejoras en la eficiencia del área bajo estudio.
-            - Reducción de personal.
-            - Reducción de futuras inversiones y costos.
-            - Disponibilidad del recurso humano.
-            - Mejoras en planeación, control y uso de recursos.
-            - Suministro oportuno de insumos para las operaciones.
-            - Cumplimiento de requerimientos gubernamentales.
-            - Toma acertada de decisiones.
-            - Disponibilidad de información apropiada.
-            - Aumento en la confiabilidad de la información.
-            - Mejor servicio al cliente externo e interno
-            - Logro de ventajas competitivas.
-            - Valor agregado a un producto de la compañía.
-        
-        5.1.2. Criterios de Inversión
 
-            5.1.2.1. Relación Beneficio/Costo (B/C)
 
-                En base a los costos y beneficios identificados se evalúa si es factible el desarrollo del proyecto. 
-                Si se presentan varias alternativas de solución se evaluará cada una de ellas para determinar la mejor solución desde el punto de vista del > retorno de la inversión
-                El B/C si es mayor a uno, se acepta el proyecto; si el B/C es igual a uno es indiferente aceptar o rechazar el proyecto y si el B/C es menor a uno se rechaza el proyecto
 
-            5.1.2.2. Valor Actual Neto (VAN)
-            
-                Valor actual de los beneficios netos que genera el proyecto. Si el VAN es mayor que cero, se acepta el proyecto; si el VAN es igual a cero es indiferente aceptar o rechazar el proyecto y si el VAN es menor que cero se rechaza el proyecto
 
-            5.1.2.3 Tasa Interna de Retorno (TIR)*
-                Es la tasa porcentual que indica la rentabilidad promedio anual que genera el capital invertido en el proyecto. Si la TIR es mayor que el costo de oportunidad se acepta el proyecto, si la TIR es igual al costo de oportunidad es indiferente aceptar o rechazar el proyecto, si la TIR es menor que el costo de oportunidad se rechaza el proyecto
 
-                Costo de oportunidad de capital (COK) es la tasa de interés que podría haber obtenido con el dinero invertido en el proyecto
 
-<div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
-6. <span id="_Toc52661357" class="anchor"></span>**Conclusiones**
+1. ## <a name="_heading=h.e7l80s6qc2dq"></a>Factibilidad Económica
 
-Explicar los resultados del análisis de factibilidad que nos indican si el proyecto es viable y factible.
+   *El costo principal del proyecto se centra en:*
+
+- ***Servidores en la nube** (Elastika).*\
+
+
+*Se estima que los costos iniciales de infraestructura son menores en comparación con una implementación manual, ya que Terraform permite reutilizar plantillas y reducir tiempos de configuración.*
+
+Definir los siguientes costos:
+
+1. Costos Generales 
+
+|<p></p><p>***Concepto***</p>|<p></p><p>`    `***Cantidad***</p>|***Costo Unitario (S/.)***|<p>***Subtotal (S/.)*** </p><p>***3 meses***</p>|
+| :-: | :-: | :- | :-: |
+|*Laptop/PC (uso del laboratorio)*|*3*|*0.00*|*0.00*|
+|*Servidor Azure*|*1*|*0.00*|*0.00*|
+|*Servidor Elástika*|*1*|*20.00*|*60.00*|
+|***Total Costos Generales***|***60.00***|||
+
+1. Costos operativos durante el desarrollo 
+
+|***Concepto***|***Costo Unitario (S/.) por mes***|***costo por 3 estudiantes(S/.) por mes***|***Subtotal (S/.)***|
+| :- | :- | :- | :- |
+|*Energía eléctrica*|*0.00*|*0.00*|*0.00*|
+|*Agua y servicios*|*0.00*|*0.00*|*0.00*|
+|*Internet institucional*|*0.00* |*0.00*|*0.00*|
+|***Total Operativo***|***0.00***|||
+
+1. Costos del ambiente
+
+|***Concepto***|***Cantidad***|***Costo Unitario (S/.)***|***Subtotal (S/.)***|
+| :-: | :- | :-: | :-: |
+|*Servidor en la nube (Azure)*|*1*|*0.00*|*0.00*|
+|*Almacenamiento adicional (backup)*|*1*|*0.00*|*0.00*|
+|*Certificado SSL (Let's Encrypt)*|*1*|*0.00*|*0.00*|
+|***Total Ambiente***|***0.00***|||
+
+
+1. Costos de personal
+
+|***Cargo***|***Cantidad***|***Salario Mensual (S/.)***|***Subtotal (S/.) x 3 meses***|
+| :-: | :- | :- | :- |
+|*Líder de Proyecto*|*1*|*0.00*|*0.00*|
+|*Desarrollador Backend*|*1*|*0.00*|*0.00*|
+|*Desarrollador Frontend*|*1*|*0.00*|*0.00*|
+|***Total Personal***|***0.00***|||
+
+1. Costos totales del desarrollo del sistema 
+
+|***Categoría***|***costo x mes***|***Costo Total (S/.) x 3 meses***|
+| :-: | :-: | :-: |
+|*Costos de Infraestructura Base de Datos (Elastika)*|*20.00*|*60.00*|
+|*Costos de Infraestructura Web (Azure F1)*|*0.00*|*0.00*|
+|*Costos Operativos*|*0.00*|*0.00*|
+|*Costos del Ambiente (Storage, Backup)*|*0.00*|*0.00*|
+|*Costos de Personal*|*0.00*|*0.00*|
+|***Costo Total Final***|***20.00***|***60.00***|
+
+*Nota: Los costos se mantienen bajos gracias al uso del tier gratuito de Azure (F1) para el despliegue web y la optimización de recursos en Elastika para la base de datos MariaDB.*
+
+1. ## <a name="_heading=h.n43fsve2z5h"></a>Factibilidad Operativa
+   El sistema beneficiará a estudiantes, docentes y personal administrativo, quienes podrán gestionar campañas de manera más ágil. La EPIS cuenta con el personal y las capacidades necesarias para mantener la plataforma operativa a largo plazo.
+
+Además, la infraestructura tecnológica existente en la universidad como las computadoras actualizadas, el soporte TI y la conectividad estable permite el desarrollo confiable de la aplicación sin requerir inversiones adicionales.
+
+El equipo docente de la EPIS supervisará el proyecto como parte de las actividades de extensión universitaria y formación práctica, asegurando seguimiento académico y técnico.
+
+La simplicidad del diseño de la interfaz y la documentación técnica generada durante el desarrollo facilitarán la capacitación de nuevos mantenedores (estudiantes de últimos ciclos), garantizando la continuidad del sistema más allá de la generación actual de desarrolladores.
+
+Finalmente, este proyecto se alinea con las políticas institucionales de digitalización y responsabilidad social de la UPT, el sistema tiene un alto potencial de adopción formal por parte de las unidades operativas que gestionan voluntariado, lo que refuerza su utilidad real y su integración en los flujos de trabajo existentes.
+
+
+1. ## <a name="_heading=h.smtc946ziiya"></a>Factibilidad Legal
+
+   Como menciona la Ley de Protección de Datos Personales del Perú (Ley N.º 29733) que protege el derecho de las personas a controlar su información personal, estableciendo que deben tener conocimiento de los datos que se recopilan sobre ellas, así como el derecho a corregirlos, eliminarlos y oponerse a su uso. También obliga a las entidades públicas y privadas a adoptar medidas técnicas, administrativas y físicas para proteger estos datos, y define las infracciones y sanciones en caso de incumplimiento. El sistema cumplirá con ello, asegurando la confidencialidad de la información de los estudiantes.
+
+|*Alineamiento con las políticas internas de la Universidad Privada de Tacna (UPT)*|El sistema se desarrollará en concordancia con el Reglamento de Seguridad de la Información y las políticas de tratamiento de datos de la Universidad Privada de Tacna (UPT), garantizando que su uso esté autorizado y supervisado por la EPIS. |
+| :- | - |
+|*Tratamiento limitado y con finalidad específica*|Los datos personales recolectados (nombre, código universitario, correo institucional, etc.) Se utilizarán exclusivamente para fines de gestión de campañas de voluntariado, sin fines comerciales ni transferencia a terceros, en estricto cumplimiento del principio de finalidad establecido en el Artículo 4 de la Ley N.º 29733.|
+|<p><h4>*Derechos ARCO (Acceso, Rectificación, Cancelación y Oposición)*</h4></p><p></p>|La plataforma incluirá funcionalidades que permitan a los titulares de los datos ejercer sus derechos ARCO, tales como consultar sus datos registrados, solicitar correcciones o solicitar la eliminación de su información al finalizar su participación en campañas.|
+|<h4>*No Uso de Datos Sensibles(raza étnica, religión, partido político)*</h4>|El sistema no recolectará datos sensibles (como origen étnico, salud, creencias religiosas o filiación política), salvo que sea estrictamente necesario y con autorización expresa y documentada, evitando así riesgos legales innecesarios.|
+|<h4><a name="_heading=h.pu0njpf5kdx"></a>*Marco de Responsabilidad*</h4>|Los Estudiantes encargados del proyecto en coordinación de la EPIS, en coordinación con la Oficina de Responsabilidad Social o la unidad organizadora del voluntariado, actuará como encargada del tratamiento de los datos, bajo la supervisión de la UPT como responsable del tratamiento, en los términos definidos por la normativa peruana.|
+
+
+1. ## <a name="_heading=h.x0tp2reoxbz0"></a>Factibilidad Social
+El proyecto tiene un alto impacto social positivo, ya que no solo fomenta la cultura del voluntariado, sino que también facilita el acceso equitativo, transparente y oportuno a oportunidades de participación social para la escuela profesional de ingeniería de sistemas (EPIS).
+
+Al centralizar y visibilizar las campañas de voluntariado en una única plataforma digital, se elimina la dispersión de información que suele limitar la participación de estudiantes de primeros ciclos o de ciclos más avanzados, promoviendo así la inclusión y la equidad en el compromiso social.
+
+Además, el sistema fortalece los lazos entre la Universidad Privada de Tacna (UPT) y la escuela profesional de ingeniería de sistemas (EPIS), al facilitar la coordinación, seguimiento y reconocimiento formal de las acciones de voluntariado, lo que incrementa la confianza y la sostenibilidad de nuestra propuesta.
+
+Desde una perspectiva formativa, el proyecto contribuye al desarrollo de competencias ciudadanas, éticas y de liderazgo en los estudiantes, alineándose con los perfiles de egreso de la UPT y con los principios de la educación superior comprometida con el entorno.
+
+Finalmente, al sistematizar y dar visibilidad a las acciones de responsabilidad social, el sistema refuerza la identidad institucional de la UPT como una universidad comprometida con el desarrollo sostenible de la región de Tacna, en coherencia con su misión y visión institucional.
+
+
+
+1. ## <a name="_heading=h.65d2qzhjhwkr"></a>Factibilidad Ambiental
+
+El sistema digital contribuye a la reducción del uso de papel, tintas, fotocopias y otros materiales impresos tradicionalmente empleados en la gestión de campañas de voluntariado, lo que genera un impacto ambiental positivo al disminuir la demanda de recursos naturales, la generación de residuos sólidos y la huella de carbono asociada a la producción y transporte de insumos físicos.
+
+Además, al centralizar la información en una plataforma en línea accesible desde dispositivos ya existentes (computadoras, laptops o teléfonos inteligentes), se evita la necesidad de imprimir formularios, listas de asistencia, informes de seguimiento o certificados en papel, promoviendo una cultura de trabajo digital y sostenible dentro de la comunidad universitaria.
+
+El diseño del sistema prioriza la eficiencia en el consumo de recursos tecnológicos: al desarrollarse con tecnologías ligeras (Java,archivos.jsp, bases de datos (mariadb)) y alojarse en infraestructura institucional existente (sin requerir servidores dedicados ni centros de datos adicionales), se minimiza también el consumo energético indirecto.
+
+En conjunto, el proyecto se alinea con los compromisos de la Universidad Privada de Tacna (UPT) en materia de desarrollo sostenible, digitalización responsable y Agenda 2030 (en particular con el Objetivo 12: Producción y consumo responsables), reforzando su viabilidad ambiental a corto y largo plazo. 
+
+
+1. # <a name="_heading=h.29n6u5a831pd"></a>Análisis Financiero
+
+   1. ## <a name="_heading=h.yitn1nv4sv2y"></a>Justificación de la Inversión
+
+*5.1.1 Beneficios* del Proyecto
+
+***Tangibles:***\
+
+
+- *Reducción del uso de papel en un 70% (ahorro anual estimado de S/. 1,500).*\
+
+- *Optimización en la gestión de campañas (ahorro de 20 horas/mes de trabajo administrativo ≈ S/. 600 mensuales).*\
+
+
+***Intangibles:***\
+
+
+- *Transparencia y confiabilidad en los certificados.*\
+
+- *Mayor participación estudiantil en el voluntariado.*\
+
+- *Posicionamiento institucional en el uso de tecnologías innovadoras.*
+
+5\.1.2 Criterios de Inversión
+
+![Gráfico 1](media/chart-1.png)
+
+![Gráfico 2](media/chart-2.png)
+
+![Gráfico 3](media/chart-3.png)
+
+![Gráfico 4](media/chart-4.png)
+
+
+
+*5.1.2.1 Relación Beneficio/Costo (B/C)*
+
+*Beneficios proyectados ≈ S/. 3,835.82 anuales*
+
+*Costos iniciales ≈ S/. 50.00*
+
+*→ **B/C = 63.93 → Proyecto viable***
+
+`                    `*5.1.2.2 Valor Actual Neto (VAN)*
+
+*Con un horizonte de 3 años y tasa de descuento del 15%, el VAN proyectado es positivo  S/. 3,775.82*
+
+*5.1.2.3 Tasa Interna de Retorno (TIR)*
+
+El valor es muy superior al 15% de tasa de descuento siendo el valor en este caso del 2800%, lo que confirma que el rendimiento del proyecto es atractivo.
+1. # <a name="_heading=h.qm454tcdjiu7"></a>Conclusiones
+El proyecto es **técnicamente viable**, ya que la Universidad cuenta con la infraestructura tecnológica necesaria (servidores en la nube, conectividad estable, equipos actualizados) y con personal capacitado (estudiantes y docentes de la EPIS) para desarrollar, implementar y mantener el sistema. Además, se aprovechan herramientas como Terraform, GitHub Education Pack y servicios cloud gratuitos, lo que garantiza una implementación eficiente, escalable y compatible con las capacidades actuales.
+
+El proyecto es **económicamente viable**, con un costo total estimado de solo S/. 60 durante los tres primeros meses, gracias al uso de recursos ya disponibles y a beneficios educativos gratuitos en la nube. Los beneficios proyectados (ahorros en papel y tiempo administrativo) superan ampliamente los costos iniciales, lo que se confirma mediante indicadores financieros positivos: una relación Beneficio/Costo de 63.93, un VAN positivo *S/. 3,775.82* y una TIR del 2800%
+
+El sistema es **operativamente viable**, pues se integra de forma natural en los procesos existentes de la universidad, cuenta con apoyo institucional (docentes de la EPIS y unidades de voluntariado) y está diseñado para ser fácilmente adoptado y mantenido por futuras generaciones de estudiantes. La simplicidad del diseño y la documentación técnica aseguran sostenibilidad a largo plazo sin interrupciones en el servicio.
+
+El sistema es **legalmente viable**, ya que el proyecto cumple plenamente con la normativa peruana en materia de protección de datos (Ley N.º 29733) y con las políticas internas de la UPT. Al limitar la recolección de datos al mínimo necesario, excluir información sensible, garantizar los derechos ARCO y definir claramente los roles de responsabilidad en el tratamiento de datos, se evitan riesgos legales y se asegura el respeto a la privacidad de los usuarios.
+
+El sistema es **socialmente viable**, porque presenta un alto impacto social positivo, ya que promueve la equidad, transparencia y accesibilidad en la participación estudiantil en actividades de voluntariado. Además, fortalece la identidad institucional de la UPT como una universidad comprometida con la responsabilidad social y el desarrollo sostenible, alineándose con los valores formativos y la misión de la institución.
+
+El proyecto es **ambientalmente sostenible**, al reducir significativamente el consumo de papel y otros recursos físicos mediante la digitalización de procesos. Su implementación en infraestructura existente y el uso de tecnologías eficientes minimizan el consumo energético, contribuyendo a la huella ecológica reducida y al cumplimiento de los principios de la Agenda 2030, especialmente el Objetivo 12 (Producción y Consumo Responsables).
+
+
