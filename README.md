@@ -60,7 +60,7 @@ El sistema **Voluntariado-UPT** implementa una arquitectura **Modelo–Vista–C
 ## ⚙️ Instalación y Ejecución
 1. Clonar el repositorio:  
    ```bash
-   git clone "COLOCAR REPO - NO OLVIDAR"
+   git clone "https://github.com/UPT-FAING-EPIS/proyecto-si784-2025-ii-u2-rufianes.git"
    ```
 2. Abrir el proyecto en **Apache NetBeans 17**.  
 3. Configurar la conexión en el archivo `ClsConexion.java` con tus credenciales MySQL.  
