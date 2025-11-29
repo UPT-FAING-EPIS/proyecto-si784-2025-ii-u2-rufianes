@@ -5,7 +5,7 @@
 ### Guía de Instalación Rápida
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/UPT-FAING-EPIS/proyecto-si784-2025-ii-u1-devsters.git
+   git clone https://github.com/UPT-FAING-EPIS/proyecto-si784-2025-ii-u1-rufianes.git
    ```
 2. Configurar base de datos:
    - Importar `bd_voluntariado.sql`
